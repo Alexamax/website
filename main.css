@@ -14,7 +14,7 @@ body {
 	
 }
 .column {
-	border: 1px black solid;
+	/* border: 1px black solid; */
 	width: 800px;
 	margin: 0px auto;
 }
@@ -70,5 +70,25 @@ body {
 #main-menu a.active {
 	color: #ffffff;
 	background-color: #ff0000;
-	
+}
+
+#pocetna {
+	text-align: center;
+	color: #ffffff;
+	background-image: url('assets/img/bg01.jpg');
+	/*background-repeat: no-repeat; */
+	background-size: cover; 
+	background-attachment: fixed;
+}
+
+#pocetna h1 {
+	font-size: 48pt;
+	margin-top: 0px;
+	padding-top: calc(50vh - 250px);
+}
+
+.dark-box {
+	background-color: #22222250;
+	border: 1px solid #ffffff;	
+	font-size: 24pt;
 }
