@@ -5,7 +5,7 @@ body {
 
 .header {
 	border-bottom: 2px solid #ff0000;
-	
+		
 }
 .page {
 	
@@ -156,4 +156,50 @@ body {
 
 .tehnologija p {
 	font-weight: bold;
+}
+
+#usluge {
+		color: #ffffff;
+}
+
+#usluge h2 {
+	padding-top: 50px;
+}	
+
+.service-row { 
+	display: flex;
+	margin-bottom: 40px;
+	justify-content: space-between;
+}
+
+.service-row > div {
+	text-align: center;
+	position: relative;
+	width: 250px;
+	height: 150px;
+	border: 1px solid #fff;
+}
+
+.service-row > div > img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 250px;
+	height: 150px;
+}
+
+
+.service-row > div > p {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding: 10px;
+	background-color: #ffffffC0;
+	margin-bottom: 0px;
+	color: #000;
+	font-weight: bold;
+	border-top: 1px solid #fff;
 }
