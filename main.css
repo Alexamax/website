@@ -5,14 +5,16 @@ body {
 
 .header {
 	border-bottom: 2px solid #ff0000;
-			
-}
+} 
+
 .page {
 	
 }
+
 .footer {
 	
 }
+
 .column {
 	/* border: 1px black solid; */
 	width: 800px;
@@ -36,7 +38,7 @@ body {
 	width: 100px;
 }
 	
-}#social_holder {
+#social_holder {
 	flex-grow: 1;
 	text-align: right;
 }
@@ -285,6 +287,55 @@ body {
 .proizvod:hover .text-holder {
 	opacity: 1.0;
 } 
+
+#karijera h2 {
+	padding: 50px;
+	text-align: center;
+}
+
+.career-columns {
+	display: flex;
+}
+
+.job-list {
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+.job-descriptions {
+	flex-grow: 2;
+	flex-basis: 0;
+}
+
+.job-list label {
+	display: block;
+	background-color: #ffffffC0;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px #fff solid;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.job-descriptions input {
+	display: none;
+}
+
+.job-descriptions .job-description {
+	display: none;
+}
+
+.job-descriptions input:checked+.job-description {
+	display: block;
+}
+
+.job-description {
+	background-color: #ffffffC0;
+	margin-left: 10px;
+	padding: 10px;
+	border: 1px #fff solid;
+	font-size: 20px;
+}
 
 
 
