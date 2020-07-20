@@ -83,7 +83,7 @@ body {
 #pocetna {
 	text-align: center;
 	color: #ffffff;
-	background-image: url('assets/img/bg01-1.jpg');
+	background-image: url('assets/img/bg01.jpg');
 	/*background-repeat: no-repeat; */
 	background-size: cover; 
 	background-attachment: fixed;
