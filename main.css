@@ -1,10 +1,16 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
+	font-family: Calibri, sans-serif;
 }
 
 .header {
 	border-bottom: 2px solid #ff0000;
+	background-color: #fefefe;
 } 
 
 .page {
@@ -105,10 +111,6 @@ body {
 	background-image: url('assets/img/bg03-01.jpg');
 	background-size: cover; 
 	background-attachment: fixed;
-}
-
-.align-center {
-	text-align: center;
 }
 
 .krugovi {
@@ -335,6 +337,72 @@ body {
 	padding: 10px;
 	border: 1px #fff solid;
 	font-size: 20px;
+}
+
+#kontakt h2 {
+	margin-top: 80px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.kontakt-region {
+	display: grid;
+	grid-template: "adrese mapa"
+				   "email  mapa";
+	grid-template-columns: 300px 1fr;			   
+}
+
+.kontakt-adrese {
+	grid-area: adrese;
+	padding-bottom: 15px;
+	font-size: 14px;
+}
+
+.kontakt-email {
+	grid-area: email;
+	font-size: 14px;
+}
+
+.kontakt-mapa {
+	grid-area: mapa;
+}
+
+.footer {
+	border-top: 3px solid #dc0101;
+	background-color: #fefefe;
+	font-size: 13px;
+}
+
+.footer > .column {
+	display: flex;	
+}
+
+.footer .footer-column {
+	flex-grow: 1;
+	flex-basis: 0;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.red-link {
+	color: #dc0101;
+	text-decoration: none;
+}
+
+.red-link:hover {
+	text-decoration: underline;
 }
 
 
